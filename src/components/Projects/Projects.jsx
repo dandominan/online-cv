@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+// import CommentBox from '../src/pics/Comment-box.png';
+import Navbar from '../Navbar';
 
 export default class Projects extends Component {
     render() {
@@ -9,7 +11,7 @@ export default class Projects extends Component {
                 </header>
                 <div>
                     <div className="project">
-                        <img src=""/>
+                        {/* <img src={CommentBox}/> */}
                         <h2></h2>
                         <p></p>
                     </div>

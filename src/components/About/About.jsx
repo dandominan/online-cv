@@ -10,7 +10,7 @@ class About extends Component {
                     <Navbar/>
                 </header>
                 <div>
-                    <img src=""/>
+                    <img src="C:\Users\ralup\Desktop\Online_CV\online-cv\src\pics\profile-pic.webp"/>
                     <div id="text">
                         <p>New to the industry, trying to learn something new every day.</p>
                         <p>I recently followed the Javascript course from Scoala Informala, where I worked on numerous projects.

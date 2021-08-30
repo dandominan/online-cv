@@ -13,7 +13,7 @@ export default class Contact extends Component {
                     <input type="text" placeholder="Name..." />
                     <input type="text" placeholder="Subject" />
                     <input type="textarea" placeholder="How can I help?" />
-                    <input type="button" value="Submit" />
+                    <input type="button" value="Send" />
                 </div>
 
             </div>
