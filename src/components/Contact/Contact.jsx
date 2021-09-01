@@ -9,7 +9,7 @@ export default class Contact extends Component {
                 <header>
                     <Navbar/>
                 </header>
-                <div>
+                <div id="contact-page">
                     <input type="text" placeholder="Name..." />
                     <input type="text" placeholder="Subject" />
                     <input type="textarea" placeholder="How can I help?" />
