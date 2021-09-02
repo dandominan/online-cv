@@ -1,0 +1,89 @@
+/* body{
+    background-color: #333;
+    width: 100%;
+} */
+
+    /* margin-left: 200px; */
+    /* display:flex;
+    justify-content: space-around; */
+
+ 
+
+.container{
+    background-color: #333;
+    /* border: white solid 3px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} 
+#home-page{
+    /* border: yellow solid 4px; */
+        margin-top: 250px;
+        margin-left: 200px;
+        width: 35%;
+        min-width: fit-content; }
+
+
+.header{
+    /* border:blue solid 6px; */
+    width: 100%;
+    height: 40px;
+}
+
+.name{
+    
+    /* border: white solid; */
+    color:white;
+    font-size: 60px;
+    font-family: "Gotham-Bold","Helvetica Neue",sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.desc{
+    font-size: 25px;
+    color:white;
+    font-family: "Gotham-Bold","Helvetica Neue",sans-serif;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+}
+
+.logos{
+    /* border: white solid; */
+    display: flex;
+    justify-content: center;
+}
+
+#gitpic{
+    width: 35px;
+    height: 35px;
+    border-radius: 7%;
+    margin-right: 12px;
+}
+
+#gitpic:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 7%;
+}
+
+#linkpic{
+    width: 35px;
+    height: 35px;
+    margin-left:12px;
+}
+#linkpic:hover{
+    width: 40px;
+    height: 40px;
+
+}
+@media only screen and (max-width:768px){
+    #home-page{
+        /* border: yellow solid 4px; */
+            margin: 30% auto;
+            width: 35%;
+            min-width: fit-content; }
+    }

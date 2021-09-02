@@ -1,0 +1,73 @@
+.project-div{
+    /* border:blanchedalmond solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10% 20px ;
+    height: 300px;
+    color: white;
+    font-family: "Gotham-Bold","Helvetica Neue",sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.project-description{
+    /* border: green solid 5px; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.avatar{
+display: flex;
+flex-direction: column;
+}
+
+.title{
+    font-size: 30px;
+    font-family: "Gotham-Bold","Helvetica Neue",sans-serif;
+    text-transform: uppercase;
+}
+
+.story{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+}
+
+#link-code{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+#link-code:hover{
+/* font-size: 18px; */
+text-decoration: underline;
+}
+
+@media only screen and (max-width:768px){
+    .project-div{
+    flex-direction: column;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+    
+    .project-description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .avatar{
+        margin: 10px auto;
+    }
+    }

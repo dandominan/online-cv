@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+
+#about-page{
+    margin-top: 10%;
+    /* border: white solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profilepic{
+    /* border:tomato solid; */
+    height: 390px;
+    width: 300px;
+}
+
+.text{
+    /* border:yellow solid; */
+    color: white;
+    width: 50%;
+    font-family: "Gotham-Bold","Helvetica Neue",sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+
+}
+
+@media only screen and (max-width:768px){
+
+#about-page{
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 80%;
+}
+}
